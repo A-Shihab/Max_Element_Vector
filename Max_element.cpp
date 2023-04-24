@@ -11,12 +11,11 @@ int main()
 
     vector<int>vec;
 
-    for(int ll=0; i<n; i++)
+    for(ll i=0; i<n; i++)
     {
         int x;
         cin>>x;
         vec.pb(x);
-
     }
 
   int Max = *max_element(vec.begin(), vec.end());
